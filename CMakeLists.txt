@@ -8,7 +8,7 @@ add_executable(Vocabify ${SOURCE_DIR}/Main.cpp)
 
 include_directories(
     "tgbot_fragment/sqlite_cpp/include"
-    "tgbot_fragment/tgbot-cpp/include"
+    "tgbot_fragment/tgbot-cpp/include/tgbot"
     "tgbot_fragment/include"
 )
 

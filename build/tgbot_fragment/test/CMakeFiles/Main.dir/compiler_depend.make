@@ -2080,8 +2080,14 @@ tgbot_fragment/test/CMakeFiles/Main.dir/src/Test.cpp.o: ../tgbot_fragment/test/s
   ../tgbot_fragment/sqlite_cpp/include/core/NativeByteBuffer.h \
   ../tgbot_fragment/sqlite_cpp/include/SQLiteCursor.hpp \
   ../tgbot_fragment/sqlite_cpp/include/SQLitePreparedStatement.hpp \
-  ../tgbot_fragment/include/Fragment.hpp
+  ../tgbot_fragment/include/Fragment.hpp \
+  ../tgbot_fragment/tgbot-cpp/include/tgbot/Api.h \
+  ../tgbot_fragment/tgbot-cpp/include/tgbot/types/Message.h \
+  ../tgbot_fragment/include/FragmentManager.hpp \
+  ../tgbot_fragment/tgbot-cpp/include/tgbot/Bot.h
 
+
+../tgbot_fragment/include/FragmentManager.hpp:
 
 ../tgbot_fragment/sqlite_cpp/include/SQLitePreparedStatement.hpp:
 
