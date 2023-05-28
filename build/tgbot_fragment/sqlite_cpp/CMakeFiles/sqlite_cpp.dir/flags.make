@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/anaskhan/proj/vocabify/tgbot_fragment/sqlite_cpp/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot-cpp/include/tgbot -I/home/anaskhan/proj/vocabify/tgbot_fragment/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot_fragment -I/home/anaskhan/proj/vocabify/tgbot_fragment/src
+C_INCLUDES = -I/home/anaskhan/proj/vocabify/tgbot_fragment/sqlite_cpp/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot-cpp/include/tgbot -I/home/anaskhan/proj/vocabify/tgbot_fragment/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot_fragment
 
 C_FLAGS = -fno-strict-aliasing -Os
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/anaskhan/proj/vocabify/tgbot_fragment/sqlite_cpp/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot-cpp/include/tgbot -I/home/anaskhan/proj/vocabify/tgbot_fragment/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot_fragment -I/home/anaskhan/proj/vocabify/tgbot_fragment/src
+CXX_INCLUDES = -I/home/anaskhan/proj/vocabify/tgbot_fragment/sqlite_cpp/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot-cpp/include/tgbot -I/home/anaskhan/proj/vocabify/tgbot_fragment/include -I/home/anaskhan/proj/vocabify/tgbot_fragment/tgbot_fragment
 
 CXX_FLAGS = -fno-strict-aliasing -Os
 

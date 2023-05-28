@@ -199,6 +199,30 @@ src/Fragment.cpp.s:
 	cd /home/anaskhan/proj/vocabify/build && $(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/Fragment.cpp.s
 .PHONY : src/Fragment.cpp.s
 
+src/FragmentManager.o: src/FragmentManager.cpp.o
+.PHONY : src/FragmentManager.o
+
+# target to build an object file
+src/FragmentManager.cpp.o:
+	cd /home/anaskhan/proj/vocabify/build && $(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/FragmentManager.cpp.o
+.PHONY : src/FragmentManager.cpp.o
+
+src/FragmentManager.i: src/FragmentManager.cpp.i
+.PHONY : src/FragmentManager.i
+
+# target to preprocess a source file
+src/FragmentManager.cpp.i:
+	cd /home/anaskhan/proj/vocabify/build && $(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/FragmentManager.cpp.i
+.PHONY : src/FragmentManager.cpp.i
+
+src/FragmentManager.s: src/FragmentManager.cpp.s
+.PHONY : src/FragmentManager.s
+
+# target to generate assembly for a file
+src/FragmentManager.cpp.s:
+	cd /home/anaskhan/proj/vocabify/build && $(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/FragmentManager.cpp.s
+.PHONY : src/FragmentManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +239,9 @@ help:
 	@echo "... src/Fragment.o"
 	@echo "... src/Fragment.i"
 	@echo "... src/Fragment.s"
+	@echo "... src/FragmentManager.o"
+	@echo "... src/FragmentManager.i"
+	@echo "... src/FragmentManager.s"
 .PHONY : help
 
 

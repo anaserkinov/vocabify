@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/anaskhan/proj/vocabify/tgbot_fragment/src/Fragment.cpp" "tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/Fragment.cpp.o" "gcc" "tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/Fragment.cpp.o.d"
+  "/home/anaskhan/proj/vocabify/tgbot_fragment/src/FragmentManager.cpp" "tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/FragmentManager.cpp.o" "gcc" "tgbot_fragment/CMakeFiles/tgbot_fragment.dir/src/FragmentManager.cpp.o.d"
   )
 
 # Targets to which this target links.

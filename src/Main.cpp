@@ -8,10 +8,10 @@
 
 #include "Database.hpp"
 #include "Fragment.hpp"
+#include "FragmentManager.hpp"
+#include "Fragments.hpp"
 
 int main() {
-    Database("dd.db");
-
     std::ifstream configFile("../config.txt");
     std::unordered_map<std::string, std::string> configMap;
 
@@ -30,6 +30,16 @@ int main() {
     }
 
     TgBot::Bot bot(configMap["BOT_TOKEN"]);
+
+    FragmentManager fragmentManager(&bot);
+    fragmentManager.setFragmentFactory([](int fragmentId) -> Fragment {
+        switch (fragmentId) {
+        case Fragments::MAIN:
+            return Fragment(1);
+        default:
+            return Fragment(1);
+        }
+    });
 
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Hi!");

@@ -149,8 +149,8 @@ tgbot_fragment/tgbot-cpp/clean: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/cl
 
 # All Build rule for target.
 CMakeFiles/Vocabify.dir/all: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/all
-CMakeFiles/Vocabify.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 CMakeFiles/Vocabify.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
+CMakeFiles/Vocabify.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vocabify.dir/build.make CMakeFiles/Vocabify.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vocabify.dir/build.make CMakeFiles/Vocabify.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=24,25 "Built target Vocabify"
@@ -158,7 +158,7 @@ CMakeFiles/Vocabify.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Vocabify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Vocabify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 0
 .PHONY : CMakeFiles/Vocabify.dir/rule
@@ -180,12 +180,12 @@ tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all: tgbot_fragment/tgbot-cpp/CMake
 tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/depend
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=40,41 "Built target tgbot_fragment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=40,41,42 "Built target tgbot_fragment"
 .PHONY : tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 
 # Build rule for subdir invocation for target.
 tgbot_fragment/CMakeFiles/tgbot_fragment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 0
 .PHONY : tgbot_fragment/CMakeFiles/tgbot_fragment.dir/rule
@@ -256,8 +256,8 @@ tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/clean:
 
 # All Build rule for target.
 tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/all
-tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
+tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/test/CMakeFiles/Main.dir/build.make tgbot_fragment/test/CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/test/CMakeFiles/Main.dir/build.make tgbot_fragment/test/CMakeFiles/Main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=1,2 "Built target Main"
@@ -265,7 +265,7 @@ tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/sqlite_cpp/CMakeFile
 
 # Build rule for subdir invocation for target.
 tgbot_fragment/test/CMakeFiles/Main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tgbot_fragment/test/CMakeFiles/Main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anaskhan/proj/vocabify/build/CMakeFiles 0
 .PHONY : tgbot_fragment/test/CMakeFiles/Main.dir/rule
