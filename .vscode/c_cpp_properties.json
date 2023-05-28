@@ -3,7 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/tgbot_fragment/",
+                "${workspaceFolder}/tgbot_fragment/tgbot-cpp/include",
+                "${workspaceFolder}/tgbot_fragment/sqlite_cpp/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

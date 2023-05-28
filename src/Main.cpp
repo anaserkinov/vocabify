@@ -6,7 +6,7 @@
 #include "Fragment.hpp"
 
 int main(){
-
+    Database("dd.db");
 
     return 0;
 }

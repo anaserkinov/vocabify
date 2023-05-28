@@ -148,9 +148,9 @@ tgbot_fragment/tgbot-cpp/clean: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/cl
 # Target rules for target CMakeFiles/Vocabify.dir
 
 # All Build rule for target.
-CMakeFiles/Vocabify.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 CMakeFiles/Vocabify.dir/all: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/all
 CMakeFiles/Vocabify.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
+CMakeFiles/Vocabify.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vocabify.dir/build.make CMakeFiles/Vocabify.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vocabify.dir/build.make CMakeFiles/Vocabify.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=24,25 "Built target Vocabify"
@@ -176,8 +176,8 @@ CMakeFiles/Vocabify.dir/clean:
 # Target rules for target tgbot_fragment/CMakeFiles/tgbot_fragment.dir
 
 # All Build rule for target.
-tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/all
+tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/depend
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build.make tgbot_fragment/CMakeFiles/tgbot_fragment.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=40,41 "Built target tgbot_fragment"
@@ -255,9 +255,9 @@ tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/clean:
 # Target rules for target tgbot_fragment/test/CMakeFiles/Main.dir
 
 # All Build rule for target.
-tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/tgbot-cpp/CMakeFiles/TgBot.dir/all
 tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/CMakeFiles/tgbot_fragment.dir/all
+tgbot_fragment/test/CMakeFiles/Main.dir/all: tgbot_fragment/sqlite_cpp/CMakeFiles/sqlite_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/test/CMakeFiles/Main.dir/build.make tgbot_fragment/test/CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f tgbot_fragment/test/CMakeFiles/Main.dir/build.make tgbot_fragment/test/CMakeFiles/Main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anaskhan/proj/vocabify/build/CMakeFiles --progress-num=1,2 "Built target Main"
