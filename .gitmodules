@@ -1,0 +1,3 @@
+[submodule "tgbot_fragment"]
+	path = tgbot_fragment
+	url = https://github.com/anaserkinov/tgbot_fragment.git
