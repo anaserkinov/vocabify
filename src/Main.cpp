@@ -11,6 +11,8 @@
 #include "FragmentManager.hpp"
 #include "Fragments.hpp"
 
+using namespace TgBot;
+
 int main() {
     std::ifstream configFile("../config.txt");
     std::unordered_map<std::string, std::string> configMap;
@@ -32,30 +34,26 @@ int main() {
     TgBot::Bot bot(configMap["BOT_TOKEN"]);
 
     FragmentManager fragmentManager(&bot);
-    fragmentManager.setFragmentFactory([](int fragmentId) -> Fragment {
+    fragmentManager.setFragmentFactory([](int fragmentId) -> Fragment* {
         switch (fragmentId) {
         case Fragments::MAIN:
-            return Fragment(1);
+            return new Fragment(1);
         default:
-            return Fragment(1);
+            return new Fragment(1);
         }
     });
 
-    bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
-        bot.getApi().sendMessage(message->chat->id, "Hi!");
-    });
+    bot.getEvents().onCommand(
+            {"start"},
+            [&](TgBot::Message::Ptr message) {
+                const std::string message = message->text;
+            });
 
-    bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message) {
-        printf("User wrote %s\n", message->text.c_str());
-        if (StringTools::startsWith(message->text, "/start")) {
-            return;
-        }
-
-        bot.getApi().sendMessage(message->chat->id, "Your message is: " + message->text);
+    bot.getEvents().onNonCommandMessage([&bot, &fragmentManager](Message::Ptr message) {
+        const std::string message = message->text;
     });
 
     try {
-        printf("Bot username: %s\n", bot.getApi().getMe()->username.c_str());
         TgBot::TgLongPoll longPoll(bot);
         while (true) {
             printf("Long poll started\n");
